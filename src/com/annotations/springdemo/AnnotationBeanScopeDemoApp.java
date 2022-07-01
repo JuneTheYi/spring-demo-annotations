@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class AnnotationBeanScopeDemoApp {
 
 	public static void main(String[] args) {
-
+		
 		// load spring config file
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
@@ -26,6 +26,7 @@ public class AnnotationBeanScopeDemoApp {
 		
 		// close the context
 		context.close();
+		
 		
 		
 	}

@@ -10,6 +10,9 @@
 	<!-- add entry to enable component scanning	 -->
 	<context:component-scan base-package="com.annotations.springdemo" />	
 
+	<!-- add entry to enable filescanning	 -->
+	<context:property-placeholder location="classpath:realPractice.txt" />	
+	
     
 </beans>
 

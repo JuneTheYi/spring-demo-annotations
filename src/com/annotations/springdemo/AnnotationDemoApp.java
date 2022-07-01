@@ -20,5 +20,6 @@ public class AnnotationDemoApp {
 		
 		// close the container
 		context.close();
+		
 	}
 }
